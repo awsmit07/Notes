@@ -1,0 +1,45 @@
+\BOOKMARK [1][-]{section.1}{Equilibrium Equation:}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Free Body Diagram}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Statical Determinacy}{}% 3
+\BOOKMARK [1][-]{section.3}{3D Vectors}{}% 4
+\BOOKMARK [1][-]{section.4}{Trusses}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Method of sections:}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Centroids and Center of Gravity}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Centroids:}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Center of Mass \(CoM\):}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Center of Gravity \(CoG\):}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.4}{Determining the center of gravity}{section.5}% 11
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Experimental Determination:}{subsection.5.4}% 12
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Mathematical Derivation:}{subsection.5.4}% 13
+\BOOKMARK [2][-]{subsection.5.5}{Center of Mass Location:}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.6}{Non-table Cases: Choice of Element of Integration:}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Concentrated And Distributed Forces}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Distributed Force:}{section.6}% 17
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Distributed force over Line:}{subsection.6.1}% 18
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Distributed force over Area:}{subsection.6.1}% 19
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Distributed Force over Volume:}{subsection.6.1}% 20
+\BOOKMARK [2][-]{subsection.6.2}{Concentrated Force:}{section.6}% 21
+\BOOKMARK [1][-]{section.7}{Beams}{}% 22
+\BOOKMARK [2][-]{subsection.7.1}{External Effects:}{section.7}% 23
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Distributed Forces}{subsection.7.1}% 24
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Internal Effects:}{subsection.7.1}% 25
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Axial Internal Forces:}{subsection.7.1}% 26
+\BOOKMARK [3][-]{subsubsection.7.1.4}{Internal Bending Moment:}{subsection.7.1}% 27
+\BOOKMARK [3][-]{subsubsection.7.1.5}{Internal Torsional Moment:}{subsection.7.1}% 28
+\BOOKMARK [3][-]{subsubsection.7.1.6}{Internal Shear Force:}{subsection.7.1}% 29
+\BOOKMARK [3][-]{subsubsection.7.1.7}{Sign conventions}{subsection.7.1}% 30
+\BOOKMARK [1][-]{section.8}{Shear Force and Bending Moment Diagrams}{}% 31
+\BOOKMARK [2][-]{subsection.8.1}{Methods}{section.8}% 32
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Section - Cuts}{subsection.8.1}% 33
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Integration - Mathematical}{subsection.8.1}% 34
+\BOOKMARK [3][-]{subsubsection.8.1.3}{Integration - Graphical}{subsection.8.1}% 35
+\BOOKMARK [2][-]{subsection.8.2}{Bending Moment and Shear Force Relations}{section.8}% 36
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Mathematical Approach}{subsection.8.2}% 37
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Graphical Approach}{subsection.8.2}% 38
+\BOOKMARK [1][-]{section.9}{Frames And Machines: }{}% 39
+\BOOKMARK [2][-]{subsection.9.1}{Frame:}{section.9}% 40
+\BOOKMARK [2][-]{subsection.9.2}{Machines:}{section.9}% 41
+\BOOKMARK [1][-]{section.10}{Friction}{}% 42
+\BOOKMARK [2][-]{subsection.10.1}{Dry Friction}{section.10}% 43
+\BOOKMARK [2][-]{subsection.10.2}{Fluid Friction}{section.10}% 44
+\BOOKMARK [2][-]{subsection.10.3}{Internal Friction}{section.10}% 45
