@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1554675718 "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.tex" "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.pdf" "277 Notes" 1554675719
+["pdflatex"] 1554676100 "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.tex" "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.pdf" "277 Notes" 1554676101
   "/etc/texmf/web2c/texmf.cnf" 1545239736 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux" 1554675719 12190 24dea205c5f38479f9d2c240549c4a01 ""
-  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.tex" 1554675718 53834 0160548171d57a8b3808b221724b89c9 ""
+  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux" 1554676101 12190 24dea205c5f38479f9d2c240549c4a01 ""
+  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.tex" 1554676100 53832 7030e73092fbea88a9b29c4b1d3256bc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -165,9 +165,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1545239793 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1545239808 4126053 c65f1f99202b7c5630ce8da7bea87413 ""
-  "277 Notes.aux" 1554675719 12190 24dea205c5f38479f9d2c240549c4a01 ""
-  "277 Notes.out" 1554675719 7010 770d6d9572cbfc4b893b046c85136ef9 ""
-  "277 Notes.tex" 1554675718 53834 0160548171d57a8b3808b221724b89c9 ""
+  "277 Notes.aux" 1554676101 12190 24dea205c5f38479f9d2c240549c4a01 ""
+  "277 Notes.out" 1554676101 7010 770d6d9572cbfc4b893b046c85136ef9 ""
+  "277 Notes.tex" 1554676100 53832 7030e73092fbea88a9b29c4b1d3256bc ""
   "Cone.png" 1552003383 368105 2e0c4ed383e1b375e6670584202fe095 ""
   "Ellipsoid.png" 1552003362 166459 ca72dd94bff9e27ee8220d208e62efa2 ""
   "Elliptical_Paraboloid.png" 1552003211 62056 15855e16c9885afed971c050e604e429 ""
@@ -180,9 +180,9 @@
   "x-simple.eps" 1554345120 63507 2d2b64554b0fcbf8186d753a0c45ce4b ""
   "y-simple.eps" 1554344825 61353 17d1b9a8932f5375fe7b19ea57cf954f ""
   (generated)
-  "277 Notes.aux"
-  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.pdf"
   "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.log"
+  "277 Notes.aux"
   "277 Notes.log"
   "277 Notes.pdf"
   "277 Notes.out"
+  "/home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.pdf"
