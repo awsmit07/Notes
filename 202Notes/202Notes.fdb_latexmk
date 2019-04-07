@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1554387187 "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.tex" "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.pdf" "202Notes" 1554387187
+["pdflatex"] 1554389385 "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.tex" "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.pdf" "202Notes" 1554389385
   "/etc/texmf/web2c/texmf.cnf" 1545239736 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.aux" 1554387187 5618 8e46c3854d475613a514b51b86938cb8 ""
-  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.tex" 1554387187 14371 d4481bdb96660f6771bbd47acf237234 ""
+  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.aux" 1554389385 5804 a5b8d31c2a88b2c078227d35f2229e44 ""
+  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.tex" 1554389384 14663 b2700e18fc280ac2c2f54501c25755db ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -146,13 +146,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1545239793 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1545239808 4126053 c65f1f99202b7c5630ce8da7bea87413 ""
-  "202Notes.aux" 1554387187 5618 8e46c3854d475613a514b51b86938cb8 ""
-  "202Notes.out" 1554387187 3219 729d5d3f6d7de9f4209c56e44d660754 ""
-  "202Notes.tex" 1554387187 14371 d4481bdb96660f6771bbd47acf237234 ""
+  "202Notes.aux" 1554389385 5804 a5b8d31c2a88b2c078227d35f2229e44 ""
+  "202Notes.out" 1554389385 3334 7442266b3290e2dccc59c8d7982fc629 ""
+  "202Notes.tex" 1554389384 14663 b2700e18fc280ac2c2f54501c25755db ""
   (generated)
-  "202Notes.pdf"
-  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.pdf"
-  "202Notes.out"
   "202Notes.aux"
   "202Notes.log"
+  "202Notes.out"
+  "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.pdf"
   "/home/andy/Workspace/LaTeX/Notes/202Notes/202Notes.log"
+  "202Notes.pdf"

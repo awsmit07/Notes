@@ -182,6 +182,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflib
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux
 OUTPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux
@@ -290,6 +292,15 @@ INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/y-simple.eps
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/y-simple-eps-converted-to.pdf
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/y-simple-eps-converted-to.pdf
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/y-simple-eps-converted-to.pdf
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord.eps
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord.eps
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord.eps
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord-eps-converted-to.pdf
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord-eps-converted-to.pdf
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord.eps
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord-eps-converted-to.pdf
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord-eps-converted-to.pdf
+INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/polarCord-eps-converted-to.pdf
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.aux
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.out
 INPUT /home/andy/Workspace/LaTeX/Notes/277Notes/277 Notes.out

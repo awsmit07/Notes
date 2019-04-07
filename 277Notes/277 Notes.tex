@@ -13,6 +13,7 @@
 \usepackage{float}
 \usetikzlibrary{decorations.pathreplacing}
 \usepackage{multicol}
+\usepackage{wrapfig}
 \tdplotsetmaincoords{70}{110}
 \renewcommand{\familydefault}{\sfdefault}
 \counterwithin*{equation}{section}
@@ -632,4 +633,154 @@
     Where $B$ is a region in $\mathbb{R}^2$.
     \subsection{A definite partial integral}
     A definite integral of the form 
+    $$\int\limits_{x=g(y)}^{x=h(x)}f(x,y)\, \partial x\ \ \mathrm{ or }\ \ \int\limits_{g(y)}^{h(y)}f(x,y)\, dx$$
+    is a definite partial integral with respect to $x$. To compute the definite partial integral, integrate $f(x,y)$ with respect to $x$ but treating $y$ as constant. Definite partial integrals of three or more variables are defined similarly.
+    \subsection{An Iterated Integral}
+    An iterated integral consists of two or more definite partial integrals. For instance
+    $$\int\limits_c^d\int\limits_a^b f(x,y)\, dx\, dy$$
+    is an example of an iterated integral. To compute an iterated integral and evaluate outward.
+    \subsection{Setting Up Limits for a Double Integral:}
+    Given the double integral
+    $$\iint\limits_D f(x,y)\, dA$$
+    If region $D$ is a $y$-simple region. For a $y$-simple region, the region is sliced vertically, and hence to integrate over a $y$-simple region $dA$ is written,
+    $$dA=dy\, dx$$
+    It follows that the integral becomes
+    $$\int\limits_a^b\int\limits_{g(x)}^{h(x)}f(x,y)\, dy\, dx$$
+
+    If region $D$ is a $x$-simple region, the region is sliced horizontally, and hence to integrate over a $x$-simple region $dA$ is written,
+    $$dA=dx\, dy$$
+    It follows that the integral becomes
+    $$\int\limits_c^d\int\limits_{p(x)}^{q(x)}f(x,y)\, dx\, dy$$
+    \subsection{Setting up Limits for a Triple Integral}
+    Consider the triple integral
+    $$\iiint \limits_E f(x,y,z)\, dV$$
+    Here assume that the region $E$ is $z$-simple. Setting up the limits for and $x$-simple or $y$-simple region is similar. Recall for $z$-simple regions they are sliced vertically and hence integrate with respect to $z$ first. That is
+    $$dV=dz\, dA$$
+    Once the inner most integral is computed, the triple integral is reduced to a double integral.
+    \subsection{Geometric Interpretation of the Double Integral:}
+    Consider the double integral
+    $$\iint\limits_D f(x,y)\, dA$$
+    for simplicity sake, we shall assume $f(x,y)\geq 0$ for $(x,y)\in D$. Let $S$ be the surface given by the equation $z=f(x,y)$, and let $V$ be the volume which lies vertically bellow $S$ and above the $xy$ plane on the region $D$. The slice $dA=dx\, dy$ is a small area on $D$. Therefore it is implied that
+    $$V=\iint\limits_Df(x,y)\, dA$$
+    In general where $f(x,y)$ is not necessarily greater than or equal to zero. In general the triple integral, 
+    $$\iiint\limits_Ef(x,y,z)\, dV$$
+    is the signed hyper volume in four dimensional space. If $f(x,y)=1$ on $D$ then the integral reduces to
+    $$A=\iint\limits_D dA$$
+    and gives the area of $D$. If $f(x,y,z)=1$ in the region $E$ then the integral reduces to
+    $$V=\iiint\limits_EdV$$
+    and gives the volume of the region $E$. This implies that a volume can be computed by either a double or triple integral.
+    \subsection{Polar, Cylindrical and Spherical Coordinate Systems:}
+    \subsubsection{Polar Coordinates System:}
+    \begin{wrapfigure}{r}{0.5\textwidth}
+        \vspace{-20pt}
+        \includegraphics[width=0.45\textwidth]{polarCord.eps}
+        \vspace{-20pt}
+    \end{wrapfigure}
+    Let $P(x,y )$ be a point in the $xy$-plane. The polar coordinates of $P$ are $r$, and $\theta$ where $r$ is the distance between the origin and the point $P$ and $r\in[0, \infty)$ and $\theta$ is the angle between $\vec{OP}$ and the positive $x$-axis and $\theta\in[0, 2\pi]$. The cartesian and polar coordinates are usually displayed on the same figure as shown and have the following relationships,
+    \begin{align*}
+        x=r\cos\theta\\
+        y=r\sin\theta\\
+        r^2=x^2+y^2\\
+        \frac{y}{x}=\tan\theta\\
+        dA=r\, dr\, d\theta
+    \end{align*} 
+    \subsubsection{Cylindrical Coordinate System:}
+    The cylindrical coordinate system is a three dimensional version of polar coordinates.\\ The point $P(x,y,z)$ is $(r, \theta, z)$ in cylindrical coordinates.
+    \subsubsection{Spherical Coordinate System} 
+    The spherical coordinate system is closely related to the geographical longitudes and latitudes. Let $P(x,y,z)$ be a point of the surface of a sphere. The spherical coordinates of $P$ are $\rho$, $\phi$, and $\theta$ where where $\rho$ is the distance from the origin to $P$ with $\rho\in[0,\infty)$, $\phi$ is the angle made between $\vec {OP}$ and the positive $z$-axis with $\phi\in[0, \pi]$ and $\theta$ is the angle made between $\vec{OQ}$ and th positive $x$-axis with $\theta\in[0,2\pi]$.
+    \begin{align}
+        x=r\cos\theta\label{rx}\\
+        y=r\sin\theta\label{ry}\\
+        r^2=x^2+y^2\label{r2}\\
+        r=\rho\sin\phi\label{rrho}\\
+        z=\rho\cos\phi\label{zrho}\\
+        \rho^2=z^2+r^2\label{rho2}
+    \end{align}
+    Substitute \eqref{rrho} into \eqref{rx}, \eqref{ry}, \eqref{r2}, and \eqref{rho2}, to obtain,
+    \begin{align*}
+        x=\rho\,\sin\phi\,\cos\theta\\
+        x=\rho\,\sin\phi\,\sin\theta\\
+        z=\rho\cos\phi\\
+        \rho^2=x^2+y^2+z^2\\
+        x^2+y^2=\rho^2\sin^2\phi\\
+        dV=\rho^2\sin\phi\,d\rho\, d\phi\, d\theta
+    \end{align*}
+    When the equations describing a region $D$ contain $x^2+y^2$, substitute $x^2+y^2=r^2$ and use polar or cylindrical coordinates. When the equation describing a region $E$ contains $x^2+y^2+z^2$, substitute $x^2+y^2+z^2=\rho^2$, and use spherical coordinates.
+    \subsubsection{A special Curve in Polar Coordinates:}
+    The equation of a circle centered at $(0,0)$ and with radius $a$ is given by 
+    $$x^2+y^2=a^2$$
+    in polar coordinates $r^2=x^2+y^2$ so therefore $r^2=a^2$, or
+    $$r=a$$
+    \subsubsection{A special Surface in cylindrical Coordinates}
+    Recall that a cylinder can be given by any curve in $\mathbb{R}^2$ projected into $\mathbb{R}^3$. Therefore the right circular cylinder is given by the equation of a circle. From above it can be seen that a circular cylinder in cylindrical coordinates, centered at $(0,0)$, and with radius $a$ can be given by,
+    $$r=a$$
+    \subsubsection{Three Special Surfaces in Spherical Coordinates:}
+    \begin{enumerate}
+        \item The equation of a sphere of radius $a$ centered at $(0,0,0)$ is given by 
+        $$x^2+y^2+z^2=a^2$$
+        in spherical coordinates $x^2+y^2+z^2=\rho^2$
+        $$\therefore \rho=a$$
+        \item The equation of a sphere of radius $a$ with center $(0,0,a)$ is given by 
+        \begin{align*}
+            x^2+y^2+(z-a)^2&=a^2\\
+            x^2+y^2+z^2&=2az
+        \end{align*}
+        In spherical coordinates $z=\rho\cos\phi$ and $x^2+y^2+z^2=\rho^2$, 
+        \begin{align*}
+            \therefore\rho^2&=2a\rho\cos\phi\\
+            \rho=2a\cos\phi
+        \end{align*}
+        \item The equation of a cone is given by
+        $$z=\alpha \sqrt{x^2+y^2}$$
+        in spherical coordinates $z=\rho\cos\phi$ and $x^2+y^2=\rho^2\sin^2\phi$, so
+        \begin{align*}
+            \rho\cos\phi&=\alpha\sqrt{\rho^2\sin^2\phi}\\
+            \therefore \phi&=\tan^{-1}\left(\frac{1}{\alpha}\right)
+        \end{align*}
+    \end{enumerate}
+    \subsubsection{Setting Up Limits of Integration in Polar Coordinates:}
+    Given the double integral
+    $$\iint\limits_Df(x,y)\,dA$$
+    To compute using polar coordinates, apply the following three steps,
+    \begin{enumerate}
+        \item In the expression of $f(x,y)$, replace $x$ by $r\cos\theta$, $y$ by $r\sin\theta$, and $x^2+y^2$ by $r^2$.
+        \item Replace $dA$ by $r\, dr\, d\theta$
+        \item Express $D$ in polar coordinates.
+    \end{enumerate}
+    \subsection{Application of Double and Triple Integrals in Calculating Mass, Moments, Centers of Mass, and Centroids}
+    Let $D$ be the planar region occupied by a thin plate or lamina. Assume that the plate is not uniform and that the area density is given by the function
+    $$\delta(x,y)$$
+    The mass is given by definition as the sum of the elements of mass
+    $$dm=\delta(x,y)\, dA$$
+    The mass is given by 
+    $$m=\iint\limits_D\delta(x,y)\, dA$$
+    The moment about the $y$ axis may be denoted $M_{x=0}$. By definition the element of moment about the $y$-axis is
+    $$dM_{x=0}=x\, dm$$
+    The total moment is then given by,
+    $$M_{x=0}=\iint\limits_D x\, dm$$
+    likewise the moment about the $x$-axis is 
+    $$M_{y=0}\iint\limits_D y\, dm$$
+    The center of mass $(\bar x, \bar y)$ is an imaginary point where the entire mass is assumed to be concentrated. By definition
+    \begin{align*}
+        M_{x=0}=\bar x m&\Rightarrow\bar x=\frac{M_{x=0}}{m}
+        M_{y=0}=\bar y m&\Rightarrow\bar y=\frac{M_{y=0}}{m}
+    \end{align*} 
+    If the lamina is uniform then its density is constant\footnotemark[2]
+    $$\delta(x,y)=C$$
+    In such a case, the center is mass is referred to as a centroid. Likewise let $E$ be the region in three space occupied by a solid. Assume the solid is not uniform and that the density function is
+    $$\delta(x,y,z)$$
+    The mass is given by
+    $$m=\iiint\limits_E dm$$
+    The moment about the $yz$-plane is
+    $$M_{x=0}=\iiint\limits_E x\, dm$$
+    The moment about the $xz$-plane is
+    $$M_{y=0}=\iiint\limits_E y\, dm$$
+    The moment about the $xy$-plane is
+    $$M_{z=0}=\iiint\limits_E z\, dm$$
+    The center of mass $(\bar x, \bar y, \bar z)$ is given by
+    \begin{align*}
+        \bar x=\frac{M_{x=0}}{m}&&\bar y=\frac{M_{y=0}}{m}&&\bar z=\frac{M_{z=0}}{m}
+    \end{align*}
+    if $\delta(x,y,z)$ is constant\footnotemark[2] then the center of mass is the centroid. In all equations above $dm=\delta(x,y,z)\, dV$. 
+    \footnotetext[2]{{It is generally assumed in this case that the density is equal to 1}}
 \end{document}
