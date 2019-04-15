@@ -27,7 +27,7 @@
 \begin{document}
     \maketitle
     \section{Vector Functions in Two and Three Space}
-    subsection{Vector Function: }
+    \subsection{Vector Function: }
     A vector function $\vec{r}$ is a rule that assigns to each real number $t$, one and only one vector 
     $$\begin{pmatrix}x(t)\\  y(t)\\ z(t)\end{pmatrix}$$
     or using the unit vectors $\hat{i}=\left(\begin{smallmatrix}1\\0\\0\end{smallmatrix}\right)$, $\hat{j}=\left(\begin{smallmatrix}0\\1\\0\end{smallmatrix}\right)$ and $\hat{k}=\left(\begin{smallmatrix}0\\0\\1\end{smallmatrix}\right)$,  
@@ -674,7 +674,7 @@
     \begin{wrapfigure}{r}{0.5\textwidth}
         \vspace{-20pt}
         \includegraphics[width=0.45\textwidth]{polarCord.eps}
-        \vspace{-20pt}
+        \vspace{-100pt}
     \end{wrapfigure}
     Let $P(x,y )$ be a point in the $xy$-plane. The polar coordinates of $P$ are $r$, and $\theta$ where $r$ is the distance between the origin and the point $P$ and $r\in[0, \infty)$ and $\theta$ is the angle between $\vec{OP}$ and the positive $x$-axis and $\theta\in[0, 2\pi]$. The cartesian and polar coordinates are usually displayed on the same figure as shown and have the following relationships,
     \begin{align*}
@@ -685,7 +685,7 @@
         dA=r\, dr\, d\theta
     \end{align*} 
     \subsubsection{Cylindrical Coordinate System:}
-    The cylindrical coordinate system is a three dimensional version of polar coordinates.\\ The point $P(x,y,z)$ is $(r, \theta, z)$ in cylindrical coordinates.
+    The cylindrical coordinate system is a three dimensional version of polar coordinates. The point $P(x,y,z)$ is $(r, \theta, z)$ in cylindrical coordinates.
     \subsubsection{Spherical Coordinate System} 
     The spherical coordinate system is closely related to the geographical longitudes and latitudes. Let $P(x,y,z)$ be a point of the surface of a sphere. The spherical coordinates of $P$ are $\rho$, $\phi$, and $\theta$ where where $\rho$ is the distance from the origin to $P$ with $\rho\in[0,\infty)$, $\phi$ is the angle made between $\vec {OP}$ and the positive $z$-axis with $\phi\in[0, \pi]$ and $\theta$ is the angle made between $\vec{OQ}$ and th positive $x$-axis with $\theta\in[0,2\pi]$.
     \begin{align}
@@ -759,10 +759,10 @@
     The total moment is then given by,
     $$M_{x=0}=\iint\limits_D x\, dm$$
     likewise the moment about the $x$-axis is 
-    $$M_{y=0}\iint\limits_D y\, dm$$
+    $$M_{y=0}=\iint\limits_D y\, dm$$
     The center of mass $(\bar x, \bar y)$ is an imaginary point where the entire mass is assumed to be concentrated. By definition
     \begin{align*}
-        M_{x=0}=\bar x m&\Rightarrow\bar x=\frac{M_{x=0}}{m}
+        M_{x=0}=\bar x m&\Rightarrow\bar x=\frac{M_{x=0}}{m}\\
         M_{y=0}=\bar y m&\Rightarrow\bar y=\frac{M_{y=0}}{m}
     \end{align*} 
     If the lamina is uniform then its density is constant\footnotemark[2]
@@ -783,4 +783,69 @@
     \end{align*}
     if $\delta(x,y,z)$ is constant\footnotemark[2] then the center of mass is the centroid. In all equations above $dm=\delta(x,y,z)\, dV$. 
     \footnotetext[2]{{It is generally assumed in this case that the density is equal to 1}}
+    \section{Extreme Values for functions of Several Variables}
+    \subsection{Critical Points}
+    Let $f(x,y)$ be a function of the two independent variables $x$, and $y$. The critical points of $f(x,y)$ occur where
+    $$\vec\nabla f(x,y)=\begin{pmatrix}
+        0\\0
+    \end{pmatrix}$$
+    Therefore the critical points occur at the solutions to the non-linear system of equations,
+    $$\left\{\begin{array}{lr}
+        f_x=0\\
+        f_y=0
+    \end{array}\right.$$
+    \subsection{The Hessian Matrix and the Second Derivative Test}
+    \subsubsection{Quadric Forms of a matrix}
+    Let $\vec x$ be a $n\times1$ vector and $A$ be a $n\times n$ symmetric matrix. Consider the expression
+    $$\vec x \cdot A \vec x$$
+    $A$ is referred to as positive definite if $\vec x \cdot A \vec x>0$ for all non-zero vectors $\vec x$. $A$ is referred to as negative definite if $\vec x \cdot A \vec x<0$ for all non-zero vectors $\vec x$.
+    $A$ is referred to as positive semi definite if $\vec x \cdot A \vec x\geq0$ for all non-zero vectors $\vec x$. $A$ is referred to as negative semi definite if $\vec x \cdot A \vec x\leq0$ for all non-zero vectors $\vec x$. If there are vectors $\vec x$, and $\vec y$ such that $\vec x \cdot A \vec x>0$ and $\vec y \cdot A \vec y<0$ then $A$ is indefinite.\\
+    Alternatively let $D_i$ be the determinant of the upper left $i\times i$ block of $A$.
+    \begin{enumerate}
+        \item If $D_i>0$ for all $i$ then $A$ is positive definite.
+        \item If $D_i>0$ for all even values of $i$ and $D_i<0$ for all odd values of $i$ then $A$ is negative definite.
+        \item If $D_n=|A|\neq0$ and neither 1 nor 2 hold then $A$ is indefinite.
+        \item If $|A|=0$ then $A$ could be positive or negative semi definite or indefinite but not positive nor negative definite.
+    \end{enumerate}
+    \subsubsection{The Hessian Matrix}
+    Let $f(x_1, x_2, \cdots, x_n)$ be a function such that all second order partials are continuous. The Hessian matrix of $f$ is denoted and defined by
+    $$H=\begin{pmatrix}
+        f_{x_1x_1} & f_{x_1x_2}& \cdots &f_{x_1x_n}\\
+        f_{x_2x_1}& f_{x_2x_2}&\cdots&f_{x_2x_n}\\
+        \vdots&\vdots&\ddots&\vdots\\
+        f_{x_nx_1}&f_{x_nx_2}&\cdots&f_{x_nx_n}\\
+    \end{pmatrix}$$
+    Note that as the second order partials are continuous $H$ is a symmetric matrix.
+    \subsubsection{The second Derivative Test}
+    Suppose $(a,b)$ is a critical point for $f:\vec\nabla f(a,b)=0$
+    \begin{enumerate}
+        \item If $H(a,b)$ is positive definite, then $f$ has a local min at $(a,b)$
+        \item If $H(a,b)$ is negative definite, then $f$ has a local max at $(a,b)$
+        \item If $H(a,b)$ is indefinite, then $f$ has a saddle point at $(a,b)$
+        \item If $H(a,b)$ is positive or negative semi definite then the test is inconclusive.
+    \end{enumerate}
+    
+    \subsection{The Discriminant and Second Derivative Test for a function of Several Variables}
+    \subsubsection{The Discriminant}
+    Let $f(x,y)$ be a function of two independent variables. The second order partials of $f$ are $f_{xx}$, $f_{xy}$, $f_{yy}$, and $f_{yx}$. Let the discriminant of $f$ be denoted and defined by
+    $$D(x,y)=(f_{xy})^2-f_{xx}f_{yy}$$
+    \subsubsection{The second derivative test}
+    Let $f(x,y)$ be a function of the two independent variables $x$, and $y$, and let $P(x_0, y_0)$ be a critical point for the function $f$.
+    \begin{enumerate}
+        \item If $D(x_0, y_0)<0$ and $f_{xx}>0$, $f$ has a local minimum at $P$.
+        \item If $D(x_0, y_0)<0$ and $f_{xx}<0$, $f$ has a local maximum at $P$.
+        \item If $D(x_0, y_0)>0$, $f$ has a neither a local minimum or maximum at $P$. Such a point is referred to as a saddle point and occurs when $f$ is at a local minimum in $x$ and a local maximum in $y$ or vice versa.
+        \item If $D(x_0, y_0)=0$ the test is inconclusive.
+    \end{enumerate} 
+    \subsection{Extreme Values for functions of several variables}
+    Let $f(x,y)$ be a function of two independent variables and let $D$ be a closed region in the $xy$-plane. To find the extreme values of $f$ over the region $D$, first calculate all critical points in the interior of the region $D$. 
+    Next find all critical points on the boundary of the region $D$, and compute $f$ at these critical points as well as at endpoints of the region. 
+    Finally compare all the obtained values if $f$. The largest value of $f$ computed is the absolute maximum of $f$ on $D$. Likewise the smallest computed value of $f$ is the absolute maximum of $f$ on $D$.
+    \subsection{Method of Lagrange Multipliers}
+    Suppose that $f(x,y)$ is bound by the constraint $g(x,y)=C$. Then the maximum and minimum points of $f$ on $g$ are solutions to the following non-linear system of equations,
+    $$\left\{\begin{array}{lr}
+        \vec\nabla f=\lambda \vec\nabla g\\
+        g(x,y)=C
+    \end{array}\right.$$
+    where $\lambda$ is a constant referred to as a Lagrange Multiplier.
 \end{document}

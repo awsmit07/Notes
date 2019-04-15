@@ -1,77 +1,89 @@
 \BOOKMARK [1][-]{section.1}{Vector Functions in Two and Three Space}{}% 1
-\BOOKMARK [2][-]{subsubsection.1.0.1}{Geometric Interpretation of a Vector Function:}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.0.2}{Endpoints and Orientation of a space or Plane Curve:}{subsubsection.1.0.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.0.3}{Derivative Rules for Vector Functions:}{subsubsection.1.0.1}% 4
-\BOOKMARK [2][-]{subsection.1.1}{Motion of a particle in Two and Three-Space}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.2}{Special Parametric Curves:}{section.1}% 6
-\BOOKMARK [2][-]{subsection.1.3}{Special Parametric Curves in Space:}{section.1}% 7
-\BOOKMARK [2][-]{subsection.1.4}{General Curves in Space:}{section.1}% 8
-\BOOKMARK [2][-]{subsection.1.5}{The , , and \040Frame}{section.1}% 9
-\BOOKMARK [3][-]{subsubsection.1.5.1}{The Unit Tangent Vector: \(t\)}{subsection.1.5}% 10
-\BOOKMARK [3][-]{subsubsection.1.5.2}{The Principle Unit Normal: \(t\)}{subsection.1.5}% 11
-\BOOKMARK [3][-]{subsubsection.1.5.3}{The Curvature: }{subsection.1.5}% 12
-\BOOKMARK [3][-]{subsubsection.1.5.4}{The Radius of Curvature }{subsection.1.5}% 13
-\BOOKMARK [3][-]{subsubsection.1.5.5}{The Unit Binormal Vector: }{subsection.1.5}% 14
-\BOOKMARK [3][-]{subsubsection.1.5.6}{The Torsion: }{subsection.1.5}% 15
-\BOOKMARK [2][-]{subsection.1.6}{Tangential and Normal Components of Acceleration}{section.1}% 16
-\BOOKMARK [3][-]{subsubsection.1.6.1}{Alternative formula for the Tangent and Normal components of Acceleration}{subsection.1.6}% 17
-\BOOKMARK [2][-]{subsection.1.7}{Summary and alternative Formula of , , , , , , aT, and aN}{section.1}% 18
-\BOOKMARK [2][-]{subsection.1.8}{Applications of Vector Functions}{section.1}% 19
-\BOOKMARK [3][-]{subsubsection.1.8.1}{The Rocket Equation}{subsection.1.8}% 20
-\BOOKMARK [3][-]{subsubsection.1.8.2}{Banking of a Road Turn:}{subsection.1.8}% 21
-\BOOKMARK [1][-]{section.2}{Functions of Several Variables}{}% 22
-\BOOKMARK [2][-]{subsection.2.1}{Quadric Surfaces:}{section.2}% 23
-\BOOKMARK [3][-]{subsubsection.2.1.1}{The Ellipsoid Family:}{subsection.2.1}% 24
-\BOOKMARK [3][-]{subsubsection.2.1.2}{The Paraboloid Family:}{subsection.2.1}% 25
-\BOOKMARK [3][-]{subsubsection.2.1.3}{The Hyperboloid Family:}{subsection.2.1}% 26
-\BOOKMARK [2][-]{subsection.2.2}{Special Surfaces:}{section.2}% 27
-\BOOKMARK [3][-]{subsubsection.2.2.1}{The Plane:}{subsection.2.2}% 28
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Special Cylinders}{subsection.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.3}{Functions of two and three independent Variables:}{section.2}% 30
-\BOOKMARK [3][-]{subsubsection.2.3.1}{A Function of Two Independent Variables:}{subsection.2.3}% 31
-\BOOKMARK [3][-]{subsubsection.2.3.2}{Domain of a Function of Two Independent Variables:}{subsection.2.3}% 32
-\BOOKMARK [3][-]{subsubsection.2.3.3}{Graph of a Function of Two Independent Variables:}{subsection.2.3}% 33
-\BOOKMARK [3][-]{subsubsection.2.3.4}{Level Curves and Surfaces of a function of 2 or 3 variables:}{subsection.2.3}% 34
-\BOOKMARK [2][-]{subsection.2.4}{Partial Derivatives for functions of Several Variables}{section.2}% 35
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Partial Derivatives of a function of Two Independent Variables}{subsection.2.4}% 36
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Other Notation for Partial Derivatives:}{subsection.2.4}% 37
-\BOOKMARK [3][-]{subsubsection.2.4.3}{Partial Derivatives of functions of n independent variables}{subsection.2.4}% 38
-\BOOKMARK [3][-]{subsubsection.2.4.4}{Higher Order Derivatives:}{subsection.2.4}% 39
-\BOOKMARK [3][-]{subsubsection.2.4.5}{The Chain Rule for functions of Several Variables:}{subsection.2.4}% 40
-\BOOKMARK [2][-]{subsection.2.5}{Tangent Planes and Normal Line to Surface:}{section.2}% 41
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Gradient of a Function of Several Variables}{subsection.2.5}% 42
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Geometric Interpretation of Gradient}{subsection.2.5}% 43
-\BOOKMARK [3][-]{subsubsection.2.5.3}{The Point Normal Form of a Plane}{subsection.2.5}% 44
-\BOOKMARK [2][-]{subsection.2.6}{Increments and Decrements:}{section.2}% 45
-\BOOKMARK [3][-]{subsubsection.2.6.1}{Increment or Change in Independent Variables}{subsection.2.6}% 46
-\BOOKMARK [3][-]{subsubsection.2.6.2}{Differentials of Independent and Dependent Variables}{subsection.2.6}% 47
-\BOOKMARK [3][-]{subsubsection.2.6.3}{Error Types}{subsection.2.6}% 48
-\BOOKMARK [2][-]{subsection.2.7}{The Laplace Equation in R2 and R3}{section.2}% 49
-\BOOKMARK [2][-]{subsection.2.8}{Linearization of a function of several variables}{section.2}% 50
-\BOOKMARK [2][-]{subsection.2.9}{Directional Derivatives of functions of several variables}{section.2}% 51
-\BOOKMARK [3][-]{subsubsection.2.9.1}{Maximum and Minimum Rates}{subsection.2.9}% 52
-\BOOKMARK [2][-]{subsection.2.10}{Implicit Differentiation}{section.2}% 53
-\BOOKMARK [3][-]{subsubsection.2.10.1}{The Jacobian Determinant}{subsection.2.10}% 54
-\BOOKMARK [3][-]{subsubsection.2.10.2}{Implicit Differentiation}{subsection.2.10}% 55
-\BOOKMARK [3][-]{subsubsection.2.10.3}{A formula for Implicit Integration:}{subsection.2.10}% 56
-\BOOKMARK [1][-]{section.3}{Double and Triple Integration}{}% 57
-\BOOKMARK [2][-]{subsection.3.1}{Notation for a Double Integral}{section.3}% 58
-\BOOKMARK [2][-]{subsection.3.2}{Notation for a Triple Integral}{section.3}% 59
-\BOOKMARK [2][-]{subsection.3.3}{Types of regions in R2}{section.3}% 60
-\BOOKMARK [3][-]{subsubsection.3.3.1}{The y-simple Region:}{subsection.3.3}% 61
-\BOOKMARK [3][-]{subsubsection.3.3.2}{The x-simple Region:}{subsection.3.3}% 62
-\BOOKMARK [2][-]{subsection.3.4}{Types of regions in R3}{section.3}% 63
-\BOOKMARK [2][-]{subsection.3.5}{A definite partial integral}{section.3}% 64
-\BOOKMARK [2][-]{subsection.3.6}{An Iterated Integral}{section.3}% 65
-\BOOKMARK [2][-]{subsection.3.7}{Setting Up Limits for a Double Integral:}{section.3}% 66
-\BOOKMARK [2][-]{subsection.3.8}{Setting up Limits for a Triple Integral}{section.3}% 67
-\BOOKMARK [2][-]{subsection.3.9}{Geometric Interpretation of the Double Integral:}{section.3}% 68
-\BOOKMARK [2][-]{subsection.3.10}{Polar, Cylindrical and Spherical Coordinate Systems:}{section.3}% 69
-\BOOKMARK [3][-]{subsubsection.3.10.1}{Polar Coordinates System:}{subsection.3.10}% 70
-\BOOKMARK [3][-]{subsubsection.3.10.2}{Cylindrical Coordinate System:}{subsection.3.10}% 71
-\BOOKMARK [3][-]{subsubsection.3.10.3}{Spherical Coordinate System}{subsection.3.10}% 72
-\BOOKMARK [3][-]{subsubsection.3.10.4}{A special Curve in Polar Coordinates:}{subsection.3.10}% 73
-\BOOKMARK [3][-]{subsubsection.3.10.5}{A special Surface in cylindrical Coordinates}{subsection.3.10}% 74
-\BOOKMARK [3][-]{subsubsection.3.10.6}{Three Special Surfaces in Spherical Coordinates:}{subsection.3.10}% 75
-\BOOKMARK [3][-]{subsubsection.3.10.7}{Setting Up Limits of Integration in Polar Coordinates:}{subsection.3.10}% 76
-\BOOKMARK [2][-]{subsection.3.11}{Application of Double and Triple Integrals in Calculating Mass, Moments, Centers of Mass, and Centroids}{section.3}% 77
+\BOOKMARK [2][-]{subsection.1.1}{Vector Function: }{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Geometric Interpretation of a Vector Function:}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Endpoints and Orientation of a space or Plane Curve:}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Derivative Rules for Vector Functions:}{subsection.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.2}{Motion of a particle in Two and Three-Space}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.3}{Special Parametric Curves:}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.4}{Special Parametric Curves in Space:}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.5}{General Curves in Space:}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.6}{The , , and \040Frame}{section.1}% 10
+\BOOKMARK [3][-]{subsubsection.1.6.1}{The Unit Tangent Vector: \(t\)}{subsection.1.6}% 11
+\BOOKMARK [3][-]{subsubsection.1.6.2}{The Principle Unit Normal: \(t\)}{subsection.1.6}% 12
+\BOOKMARK [3][-]{subsubsection.1.6.3}{The Curvature: }{subsection.1.6}% 13
+\BOOKMARK [3][-]{subsubsection.1.6.4}{The Radius of Curvature }{subsection.1.6}% 14
+\BOOKMARK [3][-]{subsubsection.1.6.5}{The Unit Binormal Vector: }{subsection.1.6}% 15
+\BOOKMARK [3][-]{subsubsection.1.6.6}{The Torsion: }{subsection.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.7}{Tangential and Normal Components of Acceleration}{section.1}% 17
+\BOOKMARK [3][-]{subsubsection.1.7.1}{Alternative formula for the Tangent and Normal components of Acceleration}{subsection.1.7}% 18
+\BOOKMARK [2][-]{subsection.1.8}{Summary and alternative Formula of , , , , , , aT, and aN}{section.1}% 19
+\BOOKMARK [2][-]{subsection.1.9}{Applications of Vector Functions}{section.1}% 20
+\BOOKMARK [3][-]{subsubsection.1.9.1}{The Rocket Equation}{subsection.1.9}% 21
+\BOOKMARK [3][-]{subsubsection.1.9.2}{Banking of a Road Turn:}{subsection.1.9}% 22
+\BOOKMARK [1][-]{section.2}{Functions of Several Variables}{}% 23
+\BOOKMARK [2][-]{subsection.2.1}{Quadric Surfaces:}{section.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.1.1}{The Ellipsoid Family:}{subsection.2.1}% 25
+\BOOKMARK [3][-]{subsubsection.2.1.2}{The Paraboloid Family:}{subsection.2.1}% 26
+\BOOKMARK [3][-]{subsubsection.2.1.3}{The Hyperboloid Family:}{subsection.2.1}% 27
+\BOOKMARK [2][-]{subsection.2.2}{Special Surfaces:}{section.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.1}{The Plane:}{subsection.2.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Special Cylinders}{subsection.2.2}% 30
+\BOOKMARK [2][-]{subsection.2.3}{Functions of two and three independent Variables:}{section.2}% 31
+\BOOKMARK [3][-]{subsubsection.2.3.1}{A Function of Two Independent Variables:}{subsection.2.3}% 32
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Domain of a Function of Two Independent Variables:}{subsection.2.3}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Graph of a Function of Two Independent Variables:}{subsection.2.3}% 34
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Level Curves and Surfaces of a function of 2 or 3 variables:}{subsection.2.3}% 35
+\BOOKMARK [2][-]{subsection.2.4}{Partial Derivatives for functions of Several Variables}{section.2}% 36
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Partial Derivatives of a function of Two Independent Variables}{subsection.2.4}% 37
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Other Notation for Partial Derivatives:}{subsection.2.4}% 38
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Partial Derivatives of functions of n independent variables}{subsection.2.4}% 39
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Higher Order Derivatives:}{subsection.2.4}% 40
+\BOOKMARK [3][-]{subsubsection.2.4.5}{The Chain Rule for functions of Several Variables:}{subsection.2.4}% 41
+\BOOKMARK [2][-]{subsection.2.5}{Tangent Planes and Normal Line to Surface:}{section.2}% 42
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Gradient of a Function of Several Variables}{subsection.2.5}% 43
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Geometric Interpretation of Gradient}{subsection.2.5}% 44
+\BOOKMARK [3][-]{subsubsection.2.5.3}{The Point Normal Form of a Plane}{subsection.2.5}% 45
+\BOOKMARK [2][-]{subsection.2.6}{Increments and Decrements:}{section.2}% 46
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Increment or Change in Independent Variables}{subsection.2.6}% 47
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Differentials of Independent and Dependent Variables}{subsection.2.6}% 48
+\BOOKMARK [3][-]{subsubsection.2.6.3}{Error Types}{subsection.2.6}% 49
+\BOOKMARK [2][-]{subsection.2.7}{The Laplace Equation in R2 and R3}{section.2}% 50
+\BOOKMARK [2][-]{subsection.2.8}{Linearization of a function of several variables}{section.2}% 51
+\BOOKMARK [2][-]{subsection.2.9}{Directional Derivatives of functions of several variables}{section.2}% 52
+\BOOKMARK [3][-]{subsubsection.2.9.1}{Maximum and Minimum Rates}{subsection.2.9}% 53
+\BOOKMARK [2][-]{subsection.2.10}{Implicit Differentiation}{section.2}% 54
+\BOOKMARK [3][-]{subsubsection.2.10.1}{The Jacobian Determinant}{subsection.2.10}% 55
+\BOOKMARK [3][-]{subsubsection.2.10.2}{Implicit Differentiation}{subsection.2.10}% 56
+\BOOKMARK [3][-]{subsubsection.2.10.3}{A formula for Implicit Integration:}{subsection.2.10}% 57
+\BOOKMARK [1][-]{section.3}{Double and Triple Integration}{}% 58
+\BOOKMARK [2][-]{subsection.3.1}{Notation for a Double Integral}{section.3}% 59
+\BOOKMARK [2][-]{subsection.3.2}{Notation for a Triple Integral}{section.3}% 60
+\BOOKMARK [2][-]{subsection.3.3}{Types of regions in R2}{section.3}% 61
+\BOOKMARK [3][-]{subsubsection.3.3.1}{The y-simple Region:}{subsection.3.3}% 62
+\BOOKMARK [3][-]{subsubsection.3.3.2}{The x-simple Region:}{subsection.3.3}% 63
+\BOOKMARK [2][-]{subsection.3.4}{Types of regions in R3}{section.3}% 64
+\BOOKMARK [2][-]{subsection.3.5}{A definite partial integral}{section.3}% 65
+\BOOKMARK [2][-]{subsection.3.6}{An Iterated Integral}{section.3}% 66
+\BOOKMARK [2][-]{subsection.3.7}{Setting Up Limits for a Double Integral:}{section.3}% 67
+\BOOKMARK [2][-]{subsection.3.8}{Setting up Limits for a Triple Integral}{section.3}% 68
+\BOOKMARK [2][-]{subsection.3.9}{Geometric Interpretation of the Double Integral:}{section.3}% 69
+\BOOKMARK [2][-]{subsection.3.10}{Polar, Cylindrical and Spherical Coordinate Systems:}{section.3}% 70
+\BOOKMARK [3][-]{subsubsection.3.10.1}{Polar Coordinates System:}{subsection.3.10}% 71
+\BOOKMARK [3][-]{subsubsection.3.10.2}{Cylindrical Coordinate System:}{subsection.3.10}% 72
+\BOOKMARK [3][-]{subsubsection.3.10.3}{Spherical Coordinate System}{subsection.3.10}% 73
+\BOOKMARK [3][-]{subsubsection.3.10.4}{A special Curve in Polar Coordinates:}{subsection.3.10}% 74
+\BOOKMARK [3][-]{subsubsection.3.10.5}{A special Surface in cylindrical Coordinates}{subsection.3.10}% 75
+\BOOKMARK [3][-]{subsubsection.3.10.6}{Three Special Surfaces in Spherical Coordinates:}{subsection.3.10}% 76
+\BOOKMARK [3][-]{subsubsection.3.10.7}{Setting Up Limits of Integration in Polar Coordinates:}{subsection.3.10}% 77
+\BOOKMARK [2][-]{subsection.3.11}{Application of Double and Triple Integrals in Calculating Mass, Moments, Centers of Mass, and Centroids}{section.3}% 78
+\BOOKMARK [1][-]{section.4}{Extreme Values for functions of Several Variables}{}% 79
+\BOOKMARK [2][-]{subsection.4.1}{Critical Points}{section.4}% 80
+\BOOKMARK [2][-]{subsection.4.2}{The Hessian Matrix and the Second Derivative Test}{section.4}% 81
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Quadric Forms of a matrix}{subsection.4.2}% 82
+\BOOKMARK [3][-]{subsubsection.4.2.2}{The Hessian Matrix}{subsection.4.2}% 83
+\BOOKMARK [3][-]{subsubsection.4.2.3}{The second Derivative Test}{subsection.4.2}% 84
+\BOOKMARK [2][-]{subsection.4.3}{The Discriminant and Second Derivative Test for a function of Several Variables}{section.4}% 85
+\BOOKMARK [3][-]{subsubsection.4.3.1}{The Discriminant}{subsection.4.3}% 86
+\BOOKMARK [3][-]{subsubsection.4.3.2}{The second derivative test}{subsection.4.3}% 87
+\BOOKMARK [2][-]{subsection.4.4}{Extreme Values for functions of several variables}{section.4}% 88
+\BOOKMARK [2][-]{subsection.4.5}{Method of Lagrange Multipliers}{section.4}% 89
