@@ -7,9 +7,21 @@
 \BOOKMARK [2][-]{subsection.1.4}{Ideal Circuit Elements:}{section.1}% 7
 \BOOKMARK [3][-]{subsubsection.1.4.1}{Ideal Conductor:}{subsection.1.4}% 8
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Sources:}{subsection.1.4}% 9
-\BOOKMARK [2][-]{subsection.1.5}{Resistors}{section.1}% 10
-\BOOKMARK [1][-]{section.2}{Resistive Circuits}{}% 11
-\BOOKMARK [1][-]{section.3}{Operational Amplifiers}{}% 12
-\BOOKMARK [1][-]{section.4}{Capacitors and Inductors}{}% 13
-\BOOKMARK [1][-]{section.5}{Sinusoidal Currents and Voltages}{}% 14
-\BOOKMARK [1][-]{section.6}{DC Machines}{}% 15
+\BOOKMARK [3][-]{subsubsection.1.4.3}{Resistors}{subsection.1.4}% 10
+\BOOKMARK [2][-]{subsection.1.5}{Power and Energy}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.5.1}{Power in Resistors}{subsection.1.5}% 12
+\BOOKMARK [3][-]{subsubsection.1.5.2}{Energy}{subsection.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.6}{Kirchoff's Laws}{section.1}% 14
+\BOOKMARK [3][-]{subsubsection.1.6.1}{Kirchoff's Current Law \(KCL\)}{subsection.1.6}% 15
+\BOOKMARK [3][-]{subsubsection.1.6.2}{Kirchoff's Voltage Law \(KVL\)}{subsection.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.7}{Series and Parallel Circuits}{section.1}% 17
+\BOOKMARK [3][-]{subsubsection.1.7.1}{Series Circuits}{subsection.1.7}% 18
+\BOOKMARK [2][-]{subsection.1.8}{Parallel Circuits}{section.1}% 19
+\BOOKMARK [1][-]{section.2}{Resistive Circuits}{}% 20
+\BOOKMARK [2][-]{subsection.2.1}{Series and Parallel Resistance}{section.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Series Resistance}{subsection.2.1}% 22
+\BOOKMARK [3][-]{subsubsection.2.1.2}{}{subsection.2.1}% 23
+\BOOKMARK [1][-]{section.3}{Operational Amplifiers}{}% 24
+\BOOKMARK [1][-]{section.4}{Capacitors and Inductors}{}% 25
+\BOOKMARK [1][-]{section.5}{Sinusoidal Currents and Voltages}{}% 26
+\BOOKMARK [1][-]{section.6}{DC Machines}{}% 27

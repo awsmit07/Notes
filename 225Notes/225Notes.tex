@@ -53,9 +53,55 @@
         \item Dependent Current Source:\\
         A dependent current source has the same properties as an independent current source except the current is dependent on the current or voltage in another element of the circuit.
     \end{enumerate} 
-    \subsection{Resistors}
-    Resistors resist the flow of current by 
+    \subsubsection{Resistors}
+    Resistors resist the flow of current by causing a drop in voltage. The relationship between the voltage across a resister and the current through the resistor is given by Ohm's Law. Ohm's Law states that if the current through a resistor is shown in the direction of the voltage drop then the voltage is given by $$V=i\,R$$ where $V$ is the voltage measured in volts $V$, $i$ is the current measured in amperes (amps) $A$ and $R$ is the resistance of the resistor measured in ohms $\Omega$. If the current through a resistor is shown in the direction of the voltage rise then ohms law states $$V=-i\,R$$
+    Likewise Ohms Law states that the current through a resistive element is 
+    $$i=\frac{1}{R}V$$
+    The quantity $G=\frac{1}{R}$ is referred to as the conductance of a circuit element. Conductance is measured in units of Siemens $\Omega^{-1}$
+    \subsection{Power and Energy}
+    Power is given as the change in energy $W$ over a change in time $t$
+    $$P=\frac{dW}{dt}$$ In electric circuits, power can be given as the product of voltage and current
+    $$P=V\, i$$
+    Power is measured in watts where $1W=1J/s$. If current is labelled in the direction of a voltage drop over an element (passive reference direction) which implies the element is absorbing power then use
+    $$P=V\, i$$
+    If the current is labelled in the direction of a voltage increase then use 
+    $$P=-V\,i$$
+    In both cases, if $P>0$ then the element is absorbing power, and conversely if $P<0$ the element is supplying power.
+    \subsubsection{Power in Resistors}
+    As stated above power in a circuit element is given by 
+    $$P=V\, i$$ if it is absorbing power. However voltage and current are related by Ohms Law for a resistive circuit element. From Ohms law the following is obtained,
+    $$V=i\, R$$
+    \begin{align*}
+        \therefore && P=i^2R && P=\frac{V^2}{R}
+    \end{align*}
+    As $i^2\geq0$, $V^2\geq0$ and $R>0$ for any resistor necessarily $P\geq0$ for any resistor.
+    \subsubsection{Energy}
+    As stated above
+    \begin{align*}
+        P&=\frac{dW}{dt}\\
+        \therefore W=\int\limits_{t_1}^{t_2}P(t)dt
+    \end{align*}
+    \subsection{Kirchoff's Laws}
+    \subsubsection{Kirchoff's Current Law (KCL)}
+    Consider a node in a circuit. The total current flowing into the node is equal to the current out, or the algebraic sum of all currents at a node must be 0.
+    $$\sum i_n=0$$
+    The convention used will be add all currents entering the node and subtract currents leaving the node. In the node voltage method the opposite convention is used.
+    \subsubsection{Kirchoff's Voltage Law (KVL)}
+    Kirchoff's voltage law states the algebraic sum of the voltages equals 0 for any closed path in an electric circuit.
+    $$\sum V_n=0$$
+    When summing voltages around a loop the direction of the loop is arbitrary.
+    If the loop crosses the positive terminal of an element add $V$. Conversely if the loop crosses the negative terminal of an element subtract $V$.
+    \subsection{Series and Parallel Circuits}
+    \subsubsection{Series Circuits}
+    Two elements are in series if they are connected at one node only and there is no other element connected to that node. Elements in series have the same current and direction of current.
+    \subsection{Parallel Circuits}
+    Two elements are in parallel if their terminals are directly connected to each other. In other words they are connected to the same two nodes. Elements in parallel must have the same actual voltage.
     \section{Resistive Circuits}
+    \subsection{Series and Parallel Resistance}
+    \subsubsection{Series Resistance}
+    A series combination of resistors has an equivalent resistance equal to the sum of the original resistances. For $n$ resistors of resistance $R_k$, the equivalent resistance $R_{eq}$ is given by,
+    $$\sum\limits_{k=1}^nR_k=R_{eq}$$
+    \subsubsection{}
     \section{Operational Amplifiers}
     \section{Capacitors and Inductors}
     \section{Sinusoidal Currents and Voltages}
