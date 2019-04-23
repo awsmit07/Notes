@@ -1,0 +1,102 @@
+\documentclass[14pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multicol}
+\renewcommand{\familydefault}{\sfdefault}
+\parindent 0ex
+\everymath{\displaystyle{}}
+\title{ENGG 225\\ Formula Sheet}
+\date{}
+\author{}
+\begin{document}
+    \maketitle
+    \section{Introduction}
+    \begin{multicols}{2}
+        $$i(t)=\frac{d\, q(t)}{dt}$$
+        $$V(t)=\frac{d\,W(t)}{d\, q(t)}$$
+        $$V=i\, R$$
+        $$P=i\, V$$
+        $$P=i^2R$$
+        $$P=\frac{V^2}{R}$$
+        $$W=\int\limits_{t_1}^{t_2}P(t)\,dt$$
+        $$\sum i_n=0$$
+        $$\sum V_n=0$$
+    \end{multicols}
+    \section{Resistive Circuits}
+    \begin{multicols}{2}
+        $$\sum\limits^n_{k=1}R_k=R_{eq}$$
+        $$\frac{1}{R_{eq}}=\sum\limits_{k=1}^n\frac{1}{R_k}$$
+        $$V_k=\frac{R_k}{\sum R}V$$
+        $$i_1=\frac{R_2}{R_1+R_2}i$$
+
+    \end{multicols}
+    \section{Operational Amplifiers}
+    \begin{multicols}{2}
+        $$V_1=V_2$$
+        $$i_n=i_p=0$$
+    \end{multicols}
+    \section{Inductors and Capacitors}
+    \begin{multicols}{2}
+        $$i(t)=C\frac{d\, V(t)}{dt}$$
+        $$V(t)=\frac{1}{C}\int\limits_{t_0}^ti(\tau)\, d\tau+v(t_0)$$
+        \begin{align*}
+            P(t)&=V(t)i(t)\\
+            &=C\,v(t)\frac{d\, V(t)}{dt}\\
+            &=i(t)\left(\frac{1}{C}\int\limits_{t_0}^ti(\tau)\, d\tau+v(t_0)\right)
+        \end{align*}
+        $$\frac{1}{C_{eq}}=\sum\frac{1}{C}$$
+        $$C_{eq}=\sum C$$
+        $$V(t)=L\frac{d\, i(t)}{dt}$$
+        $$i(t)=\frac{1}{L}\int\limits_{t_0}^tV(\tau)\,d\tau+i(t_0)$$
+        $$P(t)=L\,i(t)\frac{d\, i(t)}{dt}$$
+        $$E=\frac{1}{2}L\, i(t)^2$$
+        $$L_{eq}=\sum L$$
+        $$\frac{1}{L_{eq}}=\sum\frac{1}{L}$$
+    \end{multicols}
+    \section{Alternating Current}
+    \begin{multicols}{2}
+        $$f=\frac{1}{f}$$
+        $$\omega=2\pi f$$
+        $$\sin(\omega t)=\cos\left(\omega t-\frac{\pi}{2}\right)$$
+        $$P_{avg}=\frac{\left(\sqrt{\frac{1}{T}\int\limits_0^TV^2(t)\, dt}\right)^2}{R}=\frac{V_{RMS}^2}{R}$$
+        $$V_{RMS}=\sqrt{\frac{1}{T}\int\limits_0^TV^2(t)\, dt}$$
+        $$V_{RMS}=\frac{V_m}{\sqrt{2}}$$
+        $$I_{RMS}=\frac{I_m}{\sqrt{2}}$$
+        $$\bar {V_a}=V_a\angle\theta_a$$
+        $$z_L=j\omega L$$
+        $$z_C=\frac{-j}{\omega C}$$
+        $$z_R=R$$
+        $$\bar {V}=z\, \bar{I}$$
+        \begin{align*}
+            P(t)&=V_{RMS}I_{RMS}\cos(\theta_V-\theta_I)\big[1+2\cos(2\omega t+2\theta_V)\big]\\&+V_{RMS}I_{RMS}\sin(\theta_V-\theta_I)\sin(2\omega t+2\theta_V)
+        \end{align*}
+        $$P_{avg}=P_{Real}=V_{RMS}I_{RMS}\cos(\theta_V-\theta_I$$
+        $$\theta_P=\theta_V-\theta_I$$
+        $$PF=\cos \theta_P$$
+        $$Q=V_{RMS}I_{RMS}\sin(\theta_V-\theta_I)$$
+        $$S=V_{RMS}I_{RMS}$$
+        $$\bar S=\frac{1}{2}\bar V\bar I^*$$
+        $$\bar S=P+Qj$$
+        \begin{center}
+            given $z=R+jx$ 
+        \end{center}
+        $$P=I_{RMS}^2R$$
+        $$Q=I_{RMS}^2x$$
+    \end{multicols}
+    \section{DC Machines}
+    \begin{multicols}{2}
+        $$\eta=\frac{P_{out}}{P_{in}}\times100\%$$
+        $$P_{in}=V\, i$$
+        $$P_{out}=T_{out}\omega_m$$
+        $$SR=\frac{n_{\mathrm{no\, load}}-n_{\mathrm{full\, load}}}{n_{\mathrm{full\,load}}}\times100\%$$
+        $$\boxed{E_A=K\phi\omega_m}$$
+        $$\boxed{T_{dev}=K\phi i_A}$$
+        $$\boxed{P=T\omega}$$
+    \end{multicols}
+
+\end{document}
