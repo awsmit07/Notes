@@ -107,7 +107,22 @@
     More generally for $n$ resistors of resistance $R_k$, the equivalent resistance $R_{eq}$ is given by
     $$\frac{1}{R_{eq}}=\sum\limits_{k=1}^n\frac{1}{R_k}$$
     or $$R_{eq}=\frac{1}{\sum\limits_{k=1}^n\frac{1}{R_k}}$$
-    \subsection{}
+    \subsection{Voltage and Current Division}
+    \subsubsection{Voltage Division}
+    In a series connection of resistors, the total voltage across the series branch of resistors divides among the resistors proportional to their size. For $n$ resistors of resistance $R_m$ with a total voltage across them of $V$ the voltage in the $k^{th}$ resistor $V_k$ is given by
+    $$V_k=\frac{R_k}{\sum\limits^nR_m}V$$
+    \subsection{Current Division}
+    In a parallel connection of resistors, the total current available to the parallel resistor divides among them inversely proportionally to their size. For 2 resistors of resistance $R_1$ amd $R_2$ and a total current of $i$ then the current $i_1$ through $R_1$ is
+    $$i_1=\frac{R_2}{R_1+R_2}$$
+    \subsection{Node Voltage Analysis}
+    The node voltage method allows analysis of any circuit where other methods may fail.
+    The node voltage method follows the following steps
+    \begin{enumerate}
+        \item Identify nodes and known node voltages
+        \item Apply KCL at nodes; Develop a system of equations where the unknowns are the node voltages
+        \item Solve system of equations to determine node voltages.
+    \end{enumerate}
+    A node voltage is the potential difference between a node and the reference node. If a voltage source exists the negative terminal of the node should be chosen as the reference (ground) node. 
     \section{Operational Amplifiers}
     \section{Capacitors and Inductors}
     \section{Sinusoidal Currents and Voltages}
