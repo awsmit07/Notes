@@ -1,0 +1,57 @@
+\documentclass[14pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{chngcntr}
+
+\renewcommand{\familydefault}{\sfdefault}
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+\parindent 0ex
+\everymath{\displaystyle{}}
+
+\title{Math 375\\Differential Equations for Engineers and Scientists}
+\author{Andy Smit}
+\date{Spring 2019}
+
+\begin{document}
+    \maketitle
+    \section{Differential Equations}
+    Any equation that relates a quantity to its rate of changes.
+    A solution for a differential equation is any formula that makes the equation true.
+    \subsection{Classification of Differential Equations}
+    There is two methods by which to classify differential equations.
+    The first method to classify differential equations is to look at the highest order derivative in the equation.
+    The largest $n$ such that the equation has an $n^{th}$ order derivative is an $n^{th}$ order differential equation.
+    The second method to classify differential equations is by the number of variables that are differentiated with respect to.
+    If a differential equation involves derivatives with respect to a single variable, it is a ordinary differential equation.
+    If a differential equation involves derivatives with respect to multiple variable, it is a partial differential equation.
+    \section{First Order Differential Equations}
+    \section{Second Order Linear Differential Equations}
+    \subsection{Separable Equations:}
+    A separable equation is a differential equation that can be written as
+    \begin{equation}\label{seperable_equation}
+        \frac{dy}{dx}=f(x)\,g(y)
+    \end{equation}
+    where the $x$ and $y$ are separated into factors.
+    \eqref{seperable_equation} can be rearranged to obtain
+    $$\frac{1}{g(y)}\frac{dy}{dx}=f(x)$$
+    Now both sides can be integrated with respect to $x$ to solve
+    $$\int\frac{1}{g(y)}\frac{dy}{dx}\,dx=\int f(x)\,dx+C$$
+    \subsubsection{An Important Separable Equation}
+    Consider the differential equation with the initial value,
+    \begin{equation}\label{exponential_growth}
+        \frac{dy}{dx}=ky,\ y(0)=y_0
+    \end{equation}
+    \section{Systems of Differential Equations}
+    \section{Fourier Series and Boundary Value Problems}
+    \section{Laplace Transform}
+    \section{Applications of Differential Equations}
+\end{document}
